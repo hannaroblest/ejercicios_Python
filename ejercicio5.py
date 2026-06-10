@@ -7,13 +7,13 @@ IVA = 0.16
 descuento = 0.10
 
 #==============================================================================
-#Eentrada de datos
+#Entrada de datos
 #==============================================================================
 
 nombre_cliente = input("ingresa el nombre del cliente: ")
-nombre_producto = input("ingresa el numero del producto: ")
+nombre_producto = input("ingresa el nombre del producto: ")
 
-precio_unitario = float(input("ingresa el precio unitario del producto"))
+precio_unitario = float(input("ingresa el precio unitario del producto: "))
 cantidad_productos = int(input("ingresa la cantidad de productos comprados: "))
 
 #==============================================================================
@@ -46,7 +46,7 @@ print("datos del cliente")
 print("cliente:", nombre_cliente)
 
 print("datos del producto")
-print("priducto:", nombre_producto)
+print("producto:", nombre_producto)
 print("precio unitario: $", precio_unitario)
 print("cantidad:", cantidad_productos)
 
@@ -59,4 +59,4 @@ print("resumen de compra")
 print("subtotal: $", subtotal)
 print("descuento (10%): $", monto_decuento)
 print("IVA (16%): $", monto_iva)
-print("total a pagar: $", total_pagar)
+print("total a pagar: $", total_pagar)     
